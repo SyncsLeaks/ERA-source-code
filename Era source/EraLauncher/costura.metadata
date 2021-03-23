@@ -1,0 +1,50 @@
+costura.automation.dll.compressed|1.0.0.0|Automation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|Automation.dll|F1A4F0E5D9BEAEC77CBE573AE888689F95ED6AED|28672
+costura.modbus.dll.compressed|1.11.0.0|Modbus, Version=1.11.0.0, Culture=neutral, PublicKeyToken=b5aba55fcbc8d946|Modbus.dll|C6D76CB44EAB0F488B34FE4D74F4FC0AB755C388|77824
+costura.unme.common.dll.compressed|1.1.0.0|Unme.Common, Version=1.1.0.0, Culture=neutral, PublicKeyToken=da57c01ae4598fdd|Unme.Common.dll|F1E09B57AD57345998AE107AF11392C0A1E3EF40|19456
+costura.log4net.dll.compressed|1.2.10.0|log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821|log4net.dll|D295C14E93B6D9C56AC4C68F00CBD8DC1016D0C5|225280
+costura.bcmakecert.dll.compressed|2.0.9.0|BCMakeCert, Version=2.0.9.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a|BCMakeCert.dll|19293C35F10D13517A3B7839D5BD070CC8BAF02E|614488
+costura.costura.dll.compressed|5.1.0.0|Costura, Version=5.1.0.0, Culture=neutral, PublicKeyToken=null|Costura.dll|A191D5AB442AE95DD119D78CCEB75548FAB44EFF|4608
+costura.costura.pdb.compressed|||Costura.pdb|FAD3FE00EA32D2782452A4095C890414BA615C01|2544
+costura.dnsclient.dll.compressed|1.4.0.0|DnsClient, Version=1.4.0.0, Culture=neutral, PublicKeyToken=4574bb5573c51424|DnsClient.dll|3F6D3342BF89AF467E7EB1CED52799482651623C|139264
+costura.dotnetzip.dll.compressed|1.13.4.0|DotNetZip, Version=1.13.4.0, Culture=neutral, PublicKeyToken=6583c7c814667745|DotNetZip.dll|6FD755A7543CF35CD633676B74CCE369369365D2|458752
+costura.dotnetzip.pdb.compressed|||DotNetZip.pdb|7D85033E8C5AE9B8EF4C2C3DFC8C8AC1B64A9DBA|587264
+costura.fiddlercore.dll.compressed|5.0.1.0|FiddlerCore, Version=5.0.1.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a|FiddlerCore.dll|8237980557DC544546806CBED3DFF2A1555E57A4|684032
+costura.fiddlercore.pdb.compressed|||FiddlerCore.pdb|E5806BDEDF3AD464AA16E9F263CCC62064A32FB6|1269248
+costura.microsoft.windowsapicodepack.dll.compressed|1.1.0.0|Microsoft.WindowsAPICodePack, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null|Microsoft.WindowsAPICodePack.dll|AF31272C451996C8EEA7B2E56A79B8088C606C3B|114176
+costura.microsoft.windowsapicodepack.pdb.compressed|||Microsoft.WindowsAPICodePack.pdb|AB71A15477C254D2FB760E61A9ECFC8B49555FE7|278016
+costura.microsoft.windowsapicodepack.shell.dll.compressed|1.1.0.0|Microsoft.WindowsAPICodePack.Shell, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null|Microsoft.WindowsAPICodePack.Shell.dll|22EF1D17448C01F9D06EDDC0A4ACE8827699A877|587776
+costura.microsoft.windowsapicodepack.shell.pdb.compressed|||Microsoft.WindowsAPICodePack.Shell.pdb|3E4374D22287863C6B3015FBFB525D721B92D55F|1594880
+costura.microsoft.windowsapicodepack.shellextensions.dll.compressed|1.1.0.0|Microsoft.WindowsAPICodePack.ShellExtensions, Version=1.1.0.0, Culture=neutral, PublicKeyToken=null|Microsoft.WindowsAPICodePack.ShellExtensions.dll|6B665BF91C0DE499B3C94EA94BE1E9C44AAB0ABC|38400
+costura.microsoft.windowsapicodepack.shellextensions.pdb.compressed|||Microsoft.WindowsAPICodePack.ShellExtensions.pdb|569F77FAA0AF367E69D4AEAAA5856CBE9B818C56|75264
+costura.modernwpf.controls.dll.compressed|0.9.3.0|ModernWpf.Controls, Version=0.9.3.0, Culture=neutral, PublicKeyToken=null|ModernWpf.Controls.dll|FF6BCF0665F25CC1E42E6D48EB65F6478A90E81F|696320
+costura.modernwpf.dll.compressed|1.0.0.0|ModernWpf, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|ModernWpf.dll|AB405AFD7B7DF26FD315E5761B2F140281FEB063|901632
+costura.cs.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=cs, PublicKeyToken=null|cs/ModernWpf.resources.dll|CE4626E64060347B22F6B2854CD40CE652AAD044|6144
+costura.de.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=de, PublicKeyToken=null|de/ModernWpf.resources.dll|1362AF26088416CB00D24BB6DE083DDBC756D619|6144
+costura.es.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=es, PublicKeyToken=null|es/ModernWpf.resources.dll|AC343EE2594BFC5BE62A51C661D7EDC669EC7A27|6144
+costura.fa.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=fa, PublicKeyToken=null|fa/ModernWpf.resources.dll|13B9C08A323DAC43CD6CFDE065D7D7824D59EDF3|7168
+costura.fr.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=fr, PublicKeyToken=null|fr/ModernWpf.resources.dll|0DEB77EBC0DE539F7035DA72886E92189D6AF0EB|6144
+costura.it.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=it, PublicKeyToken=null|it/ModernWpf.resources.dll|00ADA8EB4E6BD82977A4E5800F8498B9E41D548A|6144
+costura.ja.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=ja, PublicKeyToken=null|ja/ModernWpf.resources.dll|7E1C6519FB9E334B0DE0EC580C0A8A5286C3AF98|6144
+costura.ko.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=ko, PublicKeyToken=null|ko/ModernWpf.resources.dll|CB6788882AEC5E0EAA1D02E9F4020C62C8860BB6|6144
+costura.pl.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=pl, PublicKeyToken=null|pl/ModernWpf.resources.dll|064C210E6C2C477B227C3B053DF62E393239D8E4|6144
+costura.pt-br.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=pt-BR, PublicKeyToken=null|pt-BR/ModernWpf.resources.dll|F24890C54A72F0270639B5D8A46E3EA347E968AC|6144
+costura.ru.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=ru, PublicKeyToken=null|ru/ModernWpf.resources.dll|AD9F870C34EE7BAD909402B7717485763C648464|6656
+costura.tr.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=tr, PublicKeyToken=null|tr/ModernWpf.resources.dll|A7B5A8C5B4E8345F32116A72C006D6A2F8B156A0|6144
+costura.zh-hans.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=zh-Hans, PublicKeyToken=null|zh-Hans/ModernWpf.resources.dll|8089FA1F21BE67509E7C59D76B51CF214202E024|6144
+costura.zh-hant.modernwpf.resources.dll.compressed|1.0.0.0|ModernWpf.resources, Version=1.0.0.0, Culture=zh-Hant, PublicKeyToken=null|zh-Hant/ModernWpf.resources.dll|ED1FADB515C453EDCD56F2B99A9498C1E8C5EAE4|6144
+costura.mongodb.bson.dll.compressed|2.12.0.0|MongoDB.Bson, Version=2.12.0.0, Culture=neutral, PublicKeyToken=null|MongoDB.Bson.dll|162AFAF04D096347E0DF8B3CAEBBC4D2E222E520|472064
+costura.mongodb.driver.dll.compressed|2.12.0.0|MongoDB.Driver, Version=2.12.0.0, Culture=neutral, PublicKeyToken=null|MongoDB.Driver.dll|DB7075F3B1C85D525495C02B5EEF11FCD8503F8E|817152
+costura.libzstd.dll.compressed|||libzstd.dll|9EE18C0D634948199AE4F8091A57090EDD26AC73|1020311
+costura.snappy32.dll.compressed|1.1.1.7||snappy32.dll|A4A2704B84C6333BA93C403A3B38C68EA1156B19|231936
+costura.snappy64.dll.compressed|1.1.1.7||snappy64.dll|1DF218C4F0AFE01DF097EA96BA11A7C3A304E912|270336
+costura.mongodb.driver.core.dll.compressed|2.12.0.0|MongoDB.Driver.Core, Version=2.12.0.0, Culture=neutral, PublicKeyToken=null|MongoDB.Driver.Core.dll|CE63554753563B48C6171D8458FA0CE2CC76C27A|942592
+costura.mongocrypt.dll.compressed|||mongocrypt.dll|40F0219C7AD39E67C361D4DC59AA42DA3FC78C10|377344
+costura.mongodb.libmongocrypt.dll.compressed|1.2.0.0|MongoDB.LibMongocrypt, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null|MongoDB.LibMongocrypt.dll|304D489CC9F3E3AF08C4A4237D1E6F151CFE2E57|47104
+costura.newtonsoft.json.dll.compressed|12.0.0.0|Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed|Newtonsoft.Json.dll|1248142EB45EED3BEB0D9A2D3B8BED5FE2569B10|700336
+costura.sharpcompress.dll.compressed|0.23.0.0|SharpCompress, Version=0.23.0.0, Culture=neutral, PublicKeyToken=afb0a02973931d96|SharpCompress.dll|A650D81361FE15E4C45B90C84057807216171AB9|532992
+costura.system.buffers.dll.compressed|4.0.3.0|System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.Buffers.dll|2F410A0396BC148ED533AD49B6415FB58DD4D641|20856
+costura.system.runtime.compilerservices.unsafe.dll.compressed|5.0.0.0|System.Runtime.CompilerServices.Unsafe, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a|System.Runtime.CompilerServices.Unsafe.dll|BAB44612721C3DC91AC3D9DFCA7C961A3A511508|16768
+costura.system.valuetuple.dll.compressed|4.0.3.0|System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51|System.ValueTuple.dll|D1664731719E85AAD7A2273685D77FEB0204EC98|25232
+costura.telerik.networkconnections.dll.compressed|0.2.0.0|Telerik.NetworkConnections, Version=0.2.0.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a|Telerik.NetworkConnections.dll|1144B3E586C2A5D9F1B6CEFA4C13DFAAFB8518C1|48776
+costura.telerik.networkconnections.pdb.compressed|||Telerik.NetworkConnections.pdb|69EE2F928A16661274A22DF221B7DC4EEE75671E|93696
+costura.basicformatsforcore.dll.compressed|5.0.1.0|BasicFormatsForCore, Version=5.0.1.0, Culture=neutral, PublicKeyToken=67cb91587178ac5a|BasicFormatsForCore.dll|870CF263BF21175FE288EBFED505F769EAA8B5EA|155304

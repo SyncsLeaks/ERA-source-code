@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x64</Platform>
+    <ProjectGuid>{448A68BC-B976-4DE9-81AA-0C32C3648562}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EraLauncher</RootNamespace>
+    <AssemblyName>EraLauncher</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60DC8134-EBA5-43B8-BCC9-BB4BC16C2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ApplicationIcon>EraLauncher.ico</ApplicationIcon>
+    <StartupObject>ERALauncher.ERALauncher</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FiddlerCore" />
+    <Reference Include="Microsoft.WindowsAPICodePack.Shell" />
+    <Reference Include="MongoDB.Bson" />
+    <Reference Include="MongoDB.Driver" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="ModernWpf" />
+    <Reference Include="ModernWpf.Controls" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="-Module-.cs" />
+    <Compile Include="-PrivateImplementationDetails-{185D9E3D-\BA1549BC-5046-480D-BA84-5D46BF8BF439.cs" />
+    <Compile Include="A\a.2.cs" />
+    <Compile Include="A\A.cs" />
+    <Compile Include="A\a.Designer.cs">
+      <DependentUpon>a.settings</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="A\b.2.cs" />
+    <Compile Include="A\B.cs" />
+    <Compile Include="ERALauncher\App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ERALauncher\ERALauncher.cs" />
+    <Compile Include="ERALauncher\MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="A\A.resources" />
+    <EmbeddedResource Include="costura.automation.dll.compressed" />
+    <EmbeddedResource Include="costura.basicformatsforcore.dll.compressed" />
+    <EmbeddedResource Include="costura.bcmakecert.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.dll.compressed" />
+    <EmbeddedResource Include="costura.costura.pdb.compressed" />
+    <EmbeddedResource Include="costura.cs.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.de.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.dnsclient.dll.compressed" />
+    <EmbeddedResource Include="costura.dotnetzip.dll.compressed" />
+    <EmbeddedResource Include="costura.dotnetzip.pdb.compressed" />
+    <EmbeddedResource Include="costura.es.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.fa.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.fiddlercore.dll.compressed" />
+    <EmbeddedResource Include="costura.fiddlercore.pdb.compressed" />
+    <EmbeddedResource Include="costura.fr.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.it.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.ja.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.ko.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.libzstd.dll.compressed" />
+    <EmbeddedResource Include="costura.log4net.dll.compressed" />
+    <EmbeddedResource Include="costura.metadata" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.pdb.compressed" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.shell.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.shell.pdb.compressed" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.shellextensions.dll.compressed" />
+    <EmbeddedResource Include="costura.microsoft.windowsapicodepack.shellextensions.pdb.compressed" />
+    <EmbeddedResource Include="costura.modbus.dll.compressed" />
+    <EmbeddedResource Include="costura.modernwpf.controls.dll.compressed" />
+    <EmbeddedResource Include="costura.modernwpf.dll.compressed" />
+    <EmbeddedResource Include="costura.mongocrypt.dll.compressed" />
+    <EmbeddedResource Include="costura.mongodb.bson.dll.compressed" />
+    <EmbeddedResource Include="costura.mongodb.driver.core.dll.compressed" />
+    <EmbeddedResource Include="costura.mongodb.driver.dll.compressed" />
+    <EmbeddedResource Include="costura.mongodb.libmongocrypt.dll.compressed" />
+    <EmbeddedResource Include="costura.newtonsoft.json.dll.compressed" />
+    <EmbeddedResource Include="costura.pl.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.pt-br.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.ru.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.sharpcompress.dll.compressed" />
+    <EmbeddedResource Include="costura.snappy32.dll.compressed" />
+    <EmbeddedResource Include="costura.snappy64.dll.compressed" />
+    <EmbeddedResource Include="costura.system.buffers.dll.compressed" />
+    <EmbeddedResource Include="costura.system.runtime.compilerservices.unsafe.dll.compressed" />
+    <EmbeddedResource Include="costura.system.valuetuple.dll.compressed" />
+    <EmbeddedResource Include="costura.telerik.networkconnections.dll.compressed" />
+    <EmbeddedResource Include="costura.telerik.networkconnections.pdb.compressed" />
+    <EmbeddedResource Include="costura.tr.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.unme.common.dll.compressed" />
+    <EmbeddedResource Include="costura.zh-hans.modernwpf.resources.dll.compressed" />
+    <EmbeddedResource Include="costura.zh-hant.modernwpf.resources.dll.compressed" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="A\a.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>a.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ERALauncher\App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ERALauncher\MainWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="codebold.otf" />
+    <Resource Include="eralogo2.ico" />
+    <Resource Include="obfuscar.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

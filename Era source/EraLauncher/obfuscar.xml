@@ -1,0 +1,6 @@
+﻿<?xml version='1.0'?>
+<Obfuscator>
+	<Var name="InPath" value=".\bin\x64\Release" />
+	<Var name="OutPath" value=".\Obfuscator_output" />
+	<Module file="$(InPath)\EraLauncher.exe" />
+</Obfuscator>

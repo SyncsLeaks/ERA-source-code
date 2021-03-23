@@ -1,0 +1,5 @@
+C:\Users\mharr\OneDrive\Documents\Desktop\yukkykykyfkyfukkfykyfkyfukykuyfkfkfyyf\EraLauncher\obj\x64\Debug\EraLauncher.csprojAssemblyReference.cache
+C:\Users\mharr\OneDrive\Documents\Desktop\yukkykykyfkyfukkfykyfkyfukykuyfkfkfyyf\EraLauncher\obj\x64\Debug\ERALauncher\MainWindow.g.cs
+C:\Users\mharr\OneDrive\Documents\Desktop\yukkykykyfkyfukkfykyfkyfukykuyfkfkfyyf\EraLauncher\obj\x64\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\mharr\OneDrive\Documents\Desktop\yukkykykyfkyfukkfykyfkyfukykuyfkfkfyyf\EraLauncher\obj\x64\Debug\EraLauncher_MarkupCompile.cache
+C:\Users\mharr\OneDrive\Documents\Desktop\yukkykykyfkyfukkfykyfkyfukykuyfkfkfyyf\EraLauncher\obj\x64\Debug\EraLauncher_MarkupCompile.lref

@@ -1,0 +1,222 @@
+<Window
+	x:Class="ERALauncher.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:ERALauncher" xmlns:ui="http://schemas.modernwpf.com/2019"
+	Title="ERA Launcher"
+	Height="416"
+	Width="723.333"
+	ResizeMode="CanMinimize"
+	Background="#FF1D1D1D">
+    <FrameworkElement.Resources>
+        <ResourceDictionary />
+    </FrameworkElement.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition
+				Height="78*" />
+            <RowDefinition
+				Height="19*" />
+        </Grid.RowDefinitions>
+        <Grid
+			Name="CreditsWindow"
+			Visibility="Hidden"
+			RowSpan="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+					Width="84*" />
+                <ColumnDefinition
+					Width="155*" />
+            </Grid.ColumnDefinitions>
+            <Label
+				Content="Made with &lt;3 by Danii, Robot and Ozne!&#xD;&#xA;&#xD;&#xA;Credits:&#xD;&#xA;&#xD;&#xA;Danii - DLL&#xD;&#xA;Danii, Robot and Ozne - Launcher&#xD;&#xA;Robot and MC (no longer part of the team) - Website&#xD;&#xA;&#xD;&#xA;&#xA;"
+				Margin="232,26,0,0"
+				FontSize="14"
+				Background="#00000000"
+				Grid.ColumnSpan="2" />
+        </Grid>
+        <Grid
+			Name="SettingsWindow"
+			Visibility="Hidden"
+			RowSpan="3">
+            <Label
+				Content="The path to your Fortnite folder."
+				Margin="232,26,115,325"
+				FontSize="14"
+				Background="#00000000" />
+            <TextBox
+				Name="FN_Path"
+				Height="32"
+				Margin="232,0,128,296"
+				TextWrapping="Wrap"
+				Text="Fortnite Path"
+				VerticalAlignment="Bottom"
+				TextChanged="A" />
+            <Button
+				Name="select_fn_path_button"
+				Content="..."
+				Margin="597,57,0,295"
+				Width="36"
+				Height="35"
+				Click="c" />
+            <Button
+				Name="select_fn_path_button_Copy"
+				Content="Save                     "
+				Margin="638,57,0,295"
+				Width="49"
+				Height="35"
+				Click="C" />
+        </Grid>
+        <Grid
+			Name="HomeWindow"
+			Visibility="Visible"
+			RowSpan="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+					Width="191*" />
+                <ColumnDefinition
+					Width="55*" />
+                <ColumnDefinition
+					Width="394*" />
+                <ColumnDefinition
+					Width="77*" />
+            </Grid.ColumnDefinitions>
+            <ListBox
+				Margin="13,0,0,0"
+				Background="#FF171717"
+				Grid.ColumnSpan="3"
+				Grid.Column="1"
+				SelectionChanged="A" />
+            <Button
+				Name="LoginButton"
+				Content="Launch"
+				HorizontalAlignment="Stretch"
+				Margin="171,0,153.791,20"
+				VerticalAlignment="Bottom"
+				Height="32"
+				Grid.Column="2"
+				Click="b" />
+            <Label
+				Content="ERA"
+				Margin="132,123,83,127"
+				Style="{StaticResource Code}"
+				FontSize="96"
+				Background="#00000000"
+				HorizontalAlignment="Center"
+				Width="179"
+				VerticalAlignment="Center"
+				Height="137"
+				Grid.Column="2" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform AngleX="-1.273"/>
+                        <RotateTransform/>
+                        <TranslateTransform X="-1.133"/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+                <Control.Foreground>
+                    <LinearGradientBrush
+						EndPoint="0.5,1"
+						StartPoint="0.5,0">
+                        <Brush.RelativeTransform>
+                            <TransformGroup>
+                                <ScaleTransform
+									CenterY="0.5"
+									CenterX="0.5" />
+                                <SkewTransform
+									CenterY="0.5"
+									CenterX="0.5" />
+                                <RotateTransform
+									Angle="-90"
+									CenterY="0.5"
+									CenterX="0.5" />
+                                <TranslateTransform />
+                            </TransformGroup>
+                        </Brush.RelativeTransform>
+                        <GradientStop
+							Color="#FF983EFF" />
+                        <GradientStop
+							Color="#FF27C8FC"
+							Offset="1" />
+                    </LinearGradientBrush>
+                </Control.Foreground>
+            </Label>
+        </Grid>
+        <ListBox
+			Name="Menus"
+			VerticalAlignment="Top"
+			Height="387"
+			Grid.RowSpan="2"
+			Margin="0,0,513,0">
+            <ListBoxItem
+				Name="Home"
+				Height="53"
+				Selected="A">
+                <StackPanel
+					Orientation="Horizontal">
+
+                    <TextBlock
+						Text="Home"
+						Height="21"
+						Margin="5,0,18,-1"
+						RenderTransformOrigin="0.5,0.5">
+						<UIElement.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform />
+								<SkewTransform />
+								<RotateTransform />
+								<TranslateTransform
+									X="4" />
+							</TransformGroup>
+						</UIElement.RenderTransform>
+                    </TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem
+				Name="Settings"
+				Height="53"
+				Selected="a">
+                <StackPanel
+					Orientation="Horizontal">
+
+                    <TextBlock
+						Text="Settings"
+						Height="21"
+						Margin="5,0,18,-1"
+						RenderTransformOrigin="0.5,0.5">
+						<UIElement.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform />
+								<SkewTransform />
+								<RotateTransform />
+								<TranslateTransform
+									X="4" />
+							</TransformGroup>
+						</UIElement.RenderTransform>
+                    </TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+            <ListBoxItem
+				Name="Credits"
+				Height="53"
+				Selected="B">
+                <StackPanel
+					Orientation="Horizontal">
+                    <TextBlock
+						Text="Credits"
+						Height="21"
+						Margin="5,0,18,-1"
+						RenderTransformOrigin="0.5,0.5">
+						<UIElement.RenderTransform>
+							<TransformGroup>
+								<ScaleTransform />
+								<SkewTransform />
+								<RotateTransform />
+								<TranslateTransform
+									X="4" />
+							</TransformGroup>
+						</UIElement.RenderTransform>
+                    </TextBlock>
+                </StackPanel>
+            </ListBoxItem>
+        </ListBox>
+    </Grid>
+</Window>
